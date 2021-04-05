@@ -25,4 +25,9 @@ public class FocusDTO {
         return dataHoraFim;
     }
 
+    public FocusDTO(LocalDateTime dataHoraInicio, LocalDateTime dataHoraFim, String idUsuario) {
+        this.dataHoraInicio = dataHoraInicio;
+        this.dataHoraFim = dataHoraFim;
+        this.idUsuario = idUsuario;
+    }
 }
