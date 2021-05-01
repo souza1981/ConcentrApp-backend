@@ -1,4 +1,4 @@
-package br.com.igti.concentrapp.appbackend.dto;
+package br.com.igti.concentrapp.appbackend.domain.dto;
 
 public class ConcentraCoinDTO {
     private String idUsuario;

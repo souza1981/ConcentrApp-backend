@@ -1,6 +1,6 @@
-package br.com.igti.concentrapp.appbackend.controller;
+package br.com.igti.concentrapp.appbackend.aplicacao;
 
-import br.com.igti.concentrapp.appbackend.dto.FocusDTO;
+import br.com.igti.concentrapp.appbackend.domain.dto.FocusDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.http.ResponseEntity;

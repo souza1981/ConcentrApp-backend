@@ -1,4 +1,4 @@
-package br.com.igti.concentrapp.appbackend.dto;
+package br.com.igti.concentrapp.appbackend.domain.dto;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
