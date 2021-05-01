@@ -1,4 +1,4 @@
-package br.com.igti.concentrapp.appbackend.domain.rewards;
+package br.com.igti.concentrapp.appbackend.domain.coin;
 
 import br.com.igti.concentrapp.appbackend.domain.focus.Focus;
 import br.com.igti.concentrapp.appbackend.domain.user.Usuario;

@@ -1,4 +1,8 @@
 package br.com.igti.concentrapp.appbackend.service.impl;
 
-public class SecurityService {
+import br.com.igti.concentrapp.appbackend.service.api.ISecurityService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class SecurityService implements ISecurityService {
 }

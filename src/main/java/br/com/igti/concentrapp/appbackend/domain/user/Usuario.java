@@ -1,7 +1,7 @@
 package br.com.igti.concentrapp.appbackend.domain.user;
 
 import br.com.igti.concentrapp.appbackend.domain.focus.Focus;
-import br.com.igti.concentrapp.appbackend.domain.rewards.ConcentraCoin;
+import br.com.igti.concentrapp.appbackend.domain.coin.ConcentraCoin;
 
 import javax.persistence.*;
 import java.util.ArrayList;

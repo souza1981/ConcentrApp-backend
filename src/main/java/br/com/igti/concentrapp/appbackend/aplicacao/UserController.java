@@ -1,8 +1,10 @@
 package br.com.igti.concentrapp.appbackend.aplicacao;
 
 import br.com.igti.concentrapp.appbackend.domain.dto.UsuarioDTO;
+import br.com.igti.concentrapp.appbackend.service.api.IUserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,6 +17,9 @@ import java.util.Optional;
 @Api(value = "ConcentrApp API - User Controller",tags = "Usuário")
 public class UserController {
 
+    @Autowired
+    private IUserService userService;
+    
     @GetMapping("v1/usuarios")
     @ApiOperation(value = "Exibe a lista de usuários")
     public List<UsuarioDTO> getListUsuarios(){
